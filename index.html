@@ -1,168 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShibaShark (SHSHK) 🦈 - Bite into the Future!</title>
+    <title>ShibaShark (SHSHK) - Bite into the Future!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/shibashark-logo.png" type="image/png">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="scripts.js" defer></script>
 </head>
-<body>
 
+<body>
     <!-- Navigation Bar -->
-    <header>
+    <header class="navbar">
         <div class="container">
+            <a href="#" class="logo">ShibaShark</a>
             <nav>
-                <a href="#home"><img src="images/shibashark-logo.png" alt="ShibaShark Logo" class="logo"></a>
                 <ul class="nav-links">
-                    <li><a href="#about">About 🦈</a></li>
-                    <li><a href="#tokenomics">Tokenomics 💰</a></li>
-                    <li><a href="#roadmap">Roadmap 🗺️</a></li>
-                    <li><a href="#community">Community 🤝</a></li>
-                    <li><a href="#sharktank">Shark Tank 🗳️</a></li>
-                    <li><a href="#nfts">NFTs 🎨</a></li>
-                    <li><a href="#contact">Contact 📧</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tokenomics">Tokenomics</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#sharktank">Shark Tank</a></li>
+                    <li><a href="#nft">NFT Marketplace</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                <a href="#" class="cta-button">Buy SHSHK 🚀</a>
+                <a href="#" class="btn-buy">Buy SHSHK</a>
             </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section id="home" class="hero" style="background-image: url('images/hero-background.jpg');">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Welcome to ShibaShark 🦈</h1>
-                <p>Bite into the Future with the most fearless meme coin on the market!</p>
-                <a href="#" class="cta-button">Join the Frenzy! 🦈</a>
-            </div>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bite into the Future with ShibaShark!</h1>
+            <p>Join the fiercest crypto community in the ocean.</p>
+            <a href="#" class="btn-cta">Buy SHSHK</a>
+            <div class="scroll-indicator"></div>
         </div>
-        <div class="scroll-indicator">⬇️</div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
+    <section id="about" class="about section">
         <div class="container">
-            <h2>About ShibaShark 🦈</h2>
-            <p>ShibaShark (SHSHK) combines the lovable charm of the Shiba Inu with the ferocity of a shark! 🌊 Our mission is to dominate the meme coin space with a fun and engaged community while creating real value through innovative tokenomics and a robust ecosystem.</p>
+            <h2>About ShibaShark</h2>
+            <p>ShibaShark combines the fun of a Shiba Inu with the fierceness of a shark. Dive deep into a community-driven token with bite, ready to swim the crypto waters with innovation and determination.</p>
         </div>
     </section>
 
     <!-- Tokenomics Section -->
-    <section id="tokenomics" class="tokenomics">
+    <section id="tokenomics" class="tokenomics section">
         <div class="container">
-            <h2>Tokenomics 💰</h2>
-            <div class="tokenomics-content">
-                <div class="tokenomics-item">
-                    <h3>Total Supply 🌐</h3>
-                    <p>1,000,000,000,000 SHSHK</p>
+            <h2>Tokenomics</h2>
+            <div class="tokenomics-grid">
+                <div class="card">
+                    <h3>Total Supply</h3>
+                    <p>1,000,000,000 SHSHK</p>
                 </div>
-                <div class="tokenomics-item">
-                    <h3>Liquidity Pool 💧</h3>
-                    <p>40% - Locked in DEX liquidity pools 🏦</p>
+                <div class="card">
+                    <h3>Liquidity Pools</h3>
+                    <p>40% allocated to liquidity.</p>
                 </div>
-                <div class="tokenomics-item">
-                    <h3>Community Rewards 🎁</h3>
-                    <p>25% - For active community members and events 🎉</p>
+                <div class="card">
+                    <h3>Community Rewards</h3>
+                    <p>20% reserved for community incentives.</p>
                 </div>
-                <div class="tokenomics-item">
-                    <h3>Marketing & Partnerships 📈</h3>
-                    <p>15% - To drive growth and partnerships 🌍</p>
-                </div>
-                <div class="tokenomics-item">
-                    <h3>Development Fund 🔧</h3>
-                    <p>10% - For ongoing development and new features 🚀</p>
-                </div>
-                <div class="tokenomics-item">
-                    <h3>Team Allocation 👥</h3>
-                    <p>5% - For the team, vested over time ⏳</p>
-                </div>
-                <div class="tokenomics-item">
-                    <h3>Reserve Fund 💼</h3>
-                    <p>5% - Held for future needs 💪</p>
+                <div class="card">
+                    <h3>Team Allocation</h3>
+                    <p>15% allocated to the core team.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Roadmap Section -->
-    <section id="roadmap" class="roadmap">
+    <section id="roadmap" class="roadmap section">
         <div class="container">
-            <h2>Roadmap 🗺️</h2>
-            <div class="roadmap-timeline">
-                <div class="roadmap-item">
-                    <h3>Q1: Launch 🚀</h3>
-                    <p>Deploy SHSHK on BSC, launch website, start initial marketing campaigns, and list on major DEXs.</p>
+            <h2>Roadmap</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">🚀</div>
+                    <div class="timeline-content">
+                        <h3>Q1 2024</h3>
+                        <p>Launch of ShibaShark Token</p>
+                    </div>
                 </div>
-                <div class="roadmap-item">
-                    <h3>Q2: Expansion 🌍</h3>
-                    <p>Partner with influencers, expand community engagement, and introduce staking rewards.</p>
+                <div class="timeline-item">
+                    <div class="timeline-icon">🌐</div>
+                    <div class="timeline-content">
+                        <h3>Q2 2024</h3>
+                        <p>Website Launch and Community Building</p>
+                    </div>
                 </div>
-                <div class="roadmap-item">
-                    <h3>Q3: Innovation 🧠</h3>
-                    <p>Launch NFT marketplace, integrate DAO features, and begin buyback & burn events.</p>
+                <div class="timeline-item">
+                    <div class="timeline-icon">💎</div>
+                    <div class="timeline-content">
+                        <h3>Q3 2024</h3>
+                        <p>Exclusive NFT Collection Release</p>
+                    </div>
                 </div>
-                <div class="roadmap-item">
-                    <h3>Q4: Growth 📈</h3>
-                    <p>Secure CEX listings, expand globally, and initiate charity collaborations.</p>
+                <div class="timeline-item">
+                    <div class="timeline-icon">🎉</div>
+                    <div class="timeline-content">
+                        <h3>Q4 2024</h3>
+                        <p>ShibaShark Governance & Shark Tank Voting Portal</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Community Section -->
-    <section id="community" class="community">
+    <section id="community" class="community section">
         <div class="container">
-            <h2>Join the Community 🤝</h2>
-            <p>Become part of the ShibaShark family! Engage with us on social media, participate in events, and earn rewards for your contributions! 🎉</p>
+            <h2>Join the Community</h2>
+            <p>Follow us on our social media platforms and engage with other ShibaShark enthusiasts!</p>
             <div class="social-links">
-                <a href="#" class="social-icon"><i class="fab fa-twitter"></i> Twitter 🐦</a>
-                <a href="#" class="social-icon"><i class="fab fa-telegram"></i> Telegram 📲</a>
-                <a href="#" class="social-icon"><i class="fab fa-reddit"></i> Reddit 👽</a>
-                <a href="#" class="social-icon"><i class="fab fa-discord"></i> Discord 💬</a>
+                <a href="#" class="social-icon twitter">Twitter</a>
+                <a href="#" class="social-icon telegram">Telegram</a>
+                <a href="#" class="social-icon reddit">Reddit</a>
+                <a href="#" class="social-icon discord">Discord</a>
             </div>
         </div>
     </section>
 
     <!-- Shark Tank Section -->
-    <section id="sharktank" class="sharktank">
+    <section id="sharktank" class="sharktank section">
         <div class="container">
-            <h2>Shark Tank 🗳️</h2>
-            <p>Have a great idea? Submit your proposals here, and let the community vote on them! Your voice matters in the ShibaShark ecosystem. 🗣️</p>
-            <a href="#" class="cta-button">Submit a Proposal 📝</a>
+            <h2>Shark Tank</h2>
+            <p>Have a say in the future of ShibaShark! Submit your ideas and vote on proposals in our Shark Tank portal.</p>
+            <a href="#" class="btn-cta">Enter Shark Tank</a>
         </div>
     </section>
 
     <!-- NFT Marketplace Section -->
-    <section id="nfts" class="nfts">
+    <section id="nft" class="nft section">
         <div class="container">
-            <h2>ShibaShark NFTs 🎨</h2>
-            <p>Explore our exclusive NFT collection! Own a piece of the ShibaShark universe and unlock special benefits. 🦈✨</p>
-            <div class="nft-gallery">
-                <div class="nft-item">
-                    <img src="images/nft-example.jpg" alt="ShibaShark NFT">
-                    <h3>ShibaShark #001</h3>
-                    <p>Limited Edition</p>
+            <h2>ShibaShark NFT Marketplace</h2>
+            <p>Explore our exclusive collection of ShibaShark NFTs.</p>
+            <div class="nft-grid">
+                <div class="nft-card">
+                    <img src="nft1.jpg" alt="ShibaShark NFT 1">
+                    <p>ShibaShark #001</p>
                 </div>
-                <!-- Repeat for more NFTs -->
+                <div class="nft-card">
+                    <img src="nft2.jpg" alt="ShibaShark NFT 2">
+                    <p>ShibaShark #002</p>
+                </div>
+                <div class="nft-card">
+                    <img src="nft3.jpg" alt="ShibaShark NFT 3">
+                    <p>ShibaShark #003</p>
+                </div>
             </div>
-            <a href="#" class="cta-button">Visit NFT Marketplace 🛒</a>
+            <a href="#" class="btn-cta">Visit Marketplace</a>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact section">
         <div class="container">
-            <h2>Contact Us 📧</h2>
-            <p>Got questions? Reach out to our team, and we'll get back to you as soon as possible! 📬</p>
-            <form action="#" method="post" class="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="cta-button">Send Message 📤</button>
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn-cta">Send Message</button>
             </form>
         </div>
     </section>
@@ -170,22 +180,16 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <img src="images/shibashark-logo.png" alt="ShibaShark Logo" class="footer-logo">
-                <p>© 2024 ShibaShark (SHSHK). All rights reserved. 🦈</p>
-                <ul class="footer-links">
-                    <li><a href="#privacy">Privacy Policy 📜</a></li>
-                    <li><a href="#terms">Terms of Service 📑</a></li>
-                </ul>
-                <div class="social-links">
-                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i> Twitter 🐦</a>
-                    <a href="#" class="social-icon"><i class="fab fa-telegram"></i> Telegram 📲</a>
-                    <a href="#" class="social-icon"><i class="fab fa-reddit"></i> Reddit 👽</a>
-                    <a href="#" class="social-icon"><i class="fab fa-discord"></i> Discord 💬</a>
-                </div>
+            <p>&copy; 2024 ShibaShark. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
             </div>
         </div>
     </footer>
 
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
+
 </html>
